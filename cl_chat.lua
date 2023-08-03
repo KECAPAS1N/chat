@@ -1,4 +1,3 @@
-local QBCore = exports['qb-core']:GetCoreObject()
 local chatInputActive = false
 local chatInputActivating = false
 local chatHidden = true
@@ -10,7 +9,7 @@ RegisterNetEvent('chat:addMessage')
 RegisterNetEvent('chat:addSuggestion')
 RegisterNetEvent('chat:addSuggestions')
 RegisterNetEvent('chat:removeSuggestion')
-RegisterNetEvent('chat:client:Clear')
+RegisterNetEvent('chat:client:ClearChat')
 
 -- internal events
 RegisterNetEvent('__cfx_internal:serverPrint')
@@ -89,7 +88,7 @@ AddEventHandler('chat:addTemplate', function(id, html)
   })
 end)
 
-AddEventHandler('chat:client:Clear', function(name)
+AddEventHandler('chat:client:ClearChat', function(name)
 	SendNUIMessage({
 		type = 'ON_CLEAR'
 	})

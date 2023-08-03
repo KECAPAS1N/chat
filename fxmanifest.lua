@@ -2,12 +2,16 @@ fx_version 'adamant'
 game 'gta5'
 
 author 'MARFY'
-version '1.0.0'
+version '1.0.1'
 
 ui_page 'ui/index.html'
 
 client_script 'cl_chat.lua'
-server_script 'sv_chat.lua'
+
+server_scripts {
+  'sv_chat.lua',
+  'cmd.lua',
+}
 
 files {
   'ui/index.html',
