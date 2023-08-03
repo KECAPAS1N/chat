@@ -6,8 +6,8 @@
 * [Preview](https://youtu.be/3p3IcfQz_lc)
 
 # Server.cfg
-ensure qb-core
-ensure chat
+* ensure qb-core
+* ensure chat
 
 # Dependencies
 * [qb-core](https://github.com/qbcore-framework/qb-core)
