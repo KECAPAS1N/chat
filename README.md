@@ -3,6 +3,8 @@
 * PD, EMS, Twitter Alert Added.
 * Clear Chat Added.
 * No Support.
+* Note: make sure your qb-core is started
+before chat, else it cant find the export
 * [Preview](https://youtu.be/3p3IcfQz_lc)
 
 # Server.cfg
